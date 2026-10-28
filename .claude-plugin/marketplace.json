@@ -1,0 +1,11 @@
+{
+  "name": "notii",
+  "owner": { "name": "Notii", "url": "https://www.notii.io" },
+  "plugins": [
+    {
+      "name": "notii",
+      "source": "./",
+      "description": "Your Notii notes, tasks and calendar in Claude: find answers in your notes, save conversations as notes, plan your day and tick off tasks."
+    }
+  ]
+}

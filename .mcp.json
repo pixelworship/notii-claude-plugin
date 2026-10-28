@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "notii": {
+      "type": "http",
+      "url": "https://app.notii.io/mcp"
+    }
+  }
+}

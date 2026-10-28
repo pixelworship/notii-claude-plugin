@@ -1,0 +1,10 @@
+{
+  "name": "notii",
+  "displayName": "Notii",
+  "version": "1.0.3",
+  "description": "Your Notii notes, tasks and calendar in Claude: find answers in your notes, save conversations as notes, plan your day and tick off tasks. Sign in to Notii once to connect.",
+  "author": { "name": "Notii", "url": "https://app.notii.io" },
+  "homepage": "https://app.notii.io",
+  "keywords": ["notes", "tasks", "calendar", "daily notes", "productivity"],
+  "icon": "./assets/icon.png"
+}
