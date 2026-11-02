@@ -9,7 +9,7 @@ description: A daily brief from Notii, covering today's calendar, tasks due toda
 2. **Gather** (these don't depend on each other):
    - `get_calendar` with `from` and `to` both today: events from their calendars, dated tasks, board cards due, reminders and the daily note.
    - `list_tasks` with `due_before` today: open tasks that are overdue or due today.
-   - `get_daily_note` for today with the time zone: its Tasks and Notes. Notii makes it from the template if it doesn't exist yet.
+   - `get_daily_note` for today with the time zone: its Tasks and Notes. If there isn't one yet, it shows what it would start with (the open tasks from the last daily note) without making it; `add_task` makes it.
 3. **Brief, short and scannable:**
    - **Schedule:** events in time order, with reminders in place.
    - **Must do:** overdue tasks (oldest first), then today's, grouped by note. Show about ten, then "and N more".
